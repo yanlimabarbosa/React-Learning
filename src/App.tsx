@@ -1,21 +1,9 @@
-import ListGroup from "./components/ListGroup"
-import { BsFillCalendarFill } from "react-icons/bs"
-
-const handleSelectItem = (item: string) => {
-  console.log(item)
-}
+import Button from "./components/Button/Button"
 
 function App() {
-  let cities = ["New York", "San Francisco", "Tokyo"]
-
   return (
     <div>
-      <ListGroup
-        onSelectItem={handleSelectItem}
-        items={cities}
-        heading={"cities"}
-      ></ListGroup>
-      <BsFillCalendarFill color="red" size="40" />
+      <Button onClick={() => {}}>My Button</Button>
     </div>
   )
 }
