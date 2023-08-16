@@ -1,27 +1,63 @@
-# React + TypeScript + Vite
+## What have i learned so far?
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### How to Build Components
 
-Currently, two official plugins are available:
+<ul>
+   <li>Create Components</li>
+   <li>Fragments</li>
+   <li>Render Lists</li>
+   <li>Conditional Rendering</li>
+   <li>Handle Events</li>
+   <li>Manage State</li>
+   <li>Pass Data via Props</li>
+   <li>State vs Props</li>
+   <li>Pass Children</li>
+   <li>Inspect Components with React Devtools</li>
+</ul>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### How to Style Components
 
-## Expanding the ESLint configuration
+<ul>
+   <li>Vanilla CSS</li>
+   <li>CSS Modules</li>
+   <li>CSS in JS</li>
+   <li>Separation of Concerns</li>
+   <li>Inline Styles</li>
+   <li>Popular UI Libraries</li>
+   <li>Add Icons</li>
+</ul>
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### How to Manage Component State
 
-- Configure the top-level `parserOptions` property like this:
+<ul>
+   <li>State Hook</li>
+   <li>State Structure</li>
+   <li>Pure Components</li>
+   <li>Strict Mode</li>
+   <li>Update Objects</li>
+   <li>Update Nested Objects</li>
+   <li>Update Arrays</li>
+   <li>Update Arrays of Objects</li>
+   <li>Immer</li>
+   <li>Share state between Components</li>
+</ul>
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+### Forms
+<ul>
+   <li>Build Form</li>
+   <li>Handle Form Submission</li>
+   <li>Access Input fields</li>
+   <li>Controlled Components</li>
+   <li>Manage Forms with React Hook Form</li>
+   <li>Apply Validation</li>
+   <li>Schema Based Validation with Zod</li>
+</ul>
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Mini-Project: Expense Tracker
+<ul>
+   <li>Expense List</li>
+   <li>Expense Filter</li>
+   <li>Expense Form</li>
+   <li>Add an Expense Feature</li>
+   <li>Integration with React Hook Form and Zood</li>
+</ul>
