@@ -1,7 +1,6 @@
 const Hero = () => {
   return (
     <div>
-      {" "}
       <section className="hero" id="home">
         <div className="hero-banner">
           <h1>continue exploring</h1>
