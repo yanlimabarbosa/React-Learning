@@ -1,3 +1,8 @@
+## Deployments: 
+<ul>
+   <li>https://endlessrails-yan-react.vercel.app/</li>
+</ul>
+
 ## What have i learned so far?
 
 ### How to Build Components
