@@ -1,7 +1,5 @@
 ## Deployments: 
-<ul>
-   <li>https://endlessrails-yan-react.vercel.app/</li>
-</ul>
+01 - https://endlessrails-yan-react.vercel.app/</li>
 
 ## What have i learned so far?
 
