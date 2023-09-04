@@ -1,7 +1,11 @@
-import Starter from "./tutorial/01-useState/starter/03-useState-array.jsx"
+import Starter from "./tutorial/01-useState/starter/04-useState-object.jsx"
 
 function App() {
-  return <Starter />
+  return (
+    <div className="container">
+      <Starter />
+    </div>
+  )
 }
 
 export default App
