@@ -1,9 +1,7 @@
+import Starter from "./tutorial/01-useState/starter/03-useState-array.jsx"
+
 function App() {
-  return (
-    <div className='container'>
-      <h2>Advanced React</h2>
-    </div>
-  );
+  return <Starter />
 }
 
-export default App;
+export default App
