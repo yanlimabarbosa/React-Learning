@@ -20,14 +20,11 @@ const CleanupFunction = () => {
 
 const RandomComponent = () => {
   useEffect(() => {
-    console.log("rendered")
-    const intId = setInterval(() => {
-      console.log("hello from interval")
-    }, 1000)
-    return () => {
-      clearInterval(intId)
-      console.log("cleanup")
+    const someFunc = () => {
+      // anything
     }
+    window.addEventListener("scroll", someFunc)
+    return () => window.removeEventListener("scroll", someFunc)
   }, [])
 
   return (
