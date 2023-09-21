@@ -1,5 +1,8 @@
-## Deployments: 
-01 - https://endlessrails-yan-react.vercel.app/</li>
+## Deployments:
+
+01 - https://endlessrails-yan-react.vercel.app/<br>
+01 - https://birthday-buddy-yan-react.vercel.app/<br>
+02 - 
 
 ## What have i learned so far?
 
@@ -46,6 +49,7 @@
 </ul>
 
 ### Forms
+
 <ul>
    <li>Build Form</li>
    <li>Handle Form Submission</li>
@@ -57,6 +61,7 @@
 </ul>
 
 ### Mini-Project: Expense Tracker
+
 <ul>
    <li>Expense List</li>
    <li>Expense Filter</li>
