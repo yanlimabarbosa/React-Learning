@@ -1,10 +1,9 @@
-import Example from "./tutorial/04-project-structure/starter/Example"
-import List from "./tutorial/05-leverage-javascript/starter/List"
+import UncontrolledInputs from "./tutorial/06-forms/starter/05-form-data"
 
 function App() {
   return (
     <div className="container">
-      <List />
+      <UncontrolledInputs />
     </div>
   )
 }
