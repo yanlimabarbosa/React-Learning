@@ -5,6 +5,9 @@ import { links, social } from "./data"
 
 const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false)
+  const linksContainerRef = useRef(null)
+  const linksRef = useRef(null)
+
   return (
     <nav>
       <div className="nav-center">
@@ -20,11 +23,15 @@ const Navbar = () => {
           </button>
         </div>
         <div
-          className={
-            showLinks ? "links-container show-container" : "links-container"
-          }
+          className="links-container"
+          ref={linksContainerRef}
+          style={{
+            height: showLinks
+              ? `${linksRef.current.getBoundingClientRect().height}px`
+              : "0px",
+          }}
         >
-          <ul className="links">
+          <ul className="links" ref={linksRef}>
             {links.map((link) => {
               const { id, url, text } = link
               return (
@@ -35,6 +42,16 @@ const Navbar = () => {
             })}
           </ul>
         </div>
+        <ul className="social-icons">
+          {social.map((socialIcon) => {
+            const { id, url, icon } = socialIcon
+            return (
+              <li key={id}>
+                <a href={url}>{icon}</a>
+              </li>
+            )
+          })}
+        </ul>
       </div>
     </nav>
   )
