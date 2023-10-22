@@ -1,9 +1,9 @@
-import UncontrolledInputs from "./tutorial/06-forms/starter/05-form-data"
+import Starter from "./tutorial/08-custom-hooks/starter/02-fetch-data"
 
 function App() {
   return (
     <div className="container">
-      <UncontrolledInputs />
+      <Starter />
     </div>
   )
 }
