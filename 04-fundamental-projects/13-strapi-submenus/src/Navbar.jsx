@@ -2,13 +2,13 @@ import { useGlobalContext } from "./Context"
 import { FaBars } from "react-icons/fa"
 
 const Navbar = () => {
-  const { openSideBar, closeSideBar } = useGlobalContext()
+  const { openSidebar, closeSideBar } = useGlobalContext()
 
   return (
     <nav>
       <div className="nav-center">
         <h3 className="logo">strapi</h3>
-        <button onClick={openSideBar} className="toggle-btn">
+        <button onClick={openSidebar} className="toggle-btn">
           <FaBars />
         </button>
         {/* nav links here later */}
