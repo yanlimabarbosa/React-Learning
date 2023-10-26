@@ -5,7 +5,14 @@ const defaultState = {
   people: data,
 }
 
-const reducer = () => {}
+const reducer = (state, action) => {
+  if (action.type === "CLEAR_LIST") {
+    return {
+      ...state,
+      people: [],
+    }
+  }
+}
 
 const ReducerBasics = () => {
   const [state, dispatch] = useReducer(reducer, defaultState)
@@ -16,13 +23,13 @@ const ReducerBasics = () => {
   }
 
   const clearList = () => {
-    setPeople([])
+    dispatch({ type: "CLEAR_LIST " })
+    // setPeople([])
   }
 
   const resetList = () => {
-    setPeople(data)
+    // setPeople(data)
   }
-  console.log(state)
   return (
     <div>
       {state.people.map((person) => {
