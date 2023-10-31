@@ -10,6 +10,7 @@
 07 - https://slider-react-yan.netlify.app/<br>
 08 - https://lorem-ipsum-react-yan.netlify.app/<br>
 09 - https://color-generator-react-yan.netlify.app/<br>
+10 - https://daily-tasks-react-yan.netlify.app/<br>
 
 ## What have i learned so far?
 
