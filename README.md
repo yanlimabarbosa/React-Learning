@@ -9,6 +9,7 @@
 06 - https://tabs-react-yan.netlify.app/<br>
 07 - https://slider-react-yan.netlify.app/<br>
 08 - https://lorem-ipsum-react-yan.netlify.app/<br>
+09 - https://color-generator-react-yan.netlify.app/<br>
 
 ## What have i learned so far?
 
