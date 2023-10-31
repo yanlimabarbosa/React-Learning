@@ -8,6 +8,7 @@
 05 - https://menu-react-yan.netlify.app/<br>
 06 - https://tabs-react-yan.netlify.app/<br>
 07 - https://slider-react-yan.netlify.app/<br>
+08 - https://lorem-ipsum-react-yan.netlify.app/<br>
 
 ## What have i learned so far?
 
