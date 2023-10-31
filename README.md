@@ -1,7 +1,7 @@
 ## Deployments:
 
 01 - https://endlessrails-yan-react.vercel.app/<br>
-01 - https://birthday-buddy-yan-react.vercel.app/<br>
+01 - https://birthday-buddy-react-yan.vercel.app/<br>
 02 - 
 
 ## What have i learned so far?
