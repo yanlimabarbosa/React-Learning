@@ -14,6 +14,7 @@
 11 - https://navbar-react-yan.netlify.app<br>
 12 - https://sidebar-modal-react-yan.netlify.app<br>
 13 - https://strapi-submenus-react-yan.netlify.app<br>
+14 - https://cart-react-yan.netlify.app<br>
 
 
 
