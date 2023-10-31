@@ -72,12 +72,21 @@
    <li>Schema Based Validation with Zod</li>
 </ul>
 
-### Mini-Project: Expense Tracker
-
+## Advanced React
 <ul>
-   <li>Expense List</li>
-   <li>Expense Filter</li>
-   <li>Expense Form</li>
-   <li>Add an Expense Feature</li>
-   <li>Integration with React Hook Form and Zood</li>
+   <li>useState</li>
+   <li>useEffect</li>
+   <li>Conditional Rendering</li>
+   <li>Project Structure</li>
+   <li>Leverage Javascript (Optional Chaining)</li>
+   <li>Forms</li>
+   <li>useRef</li>
+   <li>Custom Hooks</li>
+   <li>Context Api</li>
+   <li>useReducer</li>
+   <li>Lower State</li>
+   <li>react.memo</li>
+   <li>useMemo</li>
+   <li>useCallback</li>
+   <li>Lazy, Suspense, useTransition</li>
 </ul>
