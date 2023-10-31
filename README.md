@@ -1,92 +1,96 @@
 ## Deployments:
 
-00 - https://endlessrails-yan-react.vercel.app<br>
-01 - https://birthday-buddy-react-yan.netlify.app<br>
-02 - https://tour-react-yan.netlify.app<br>
-03 - https://reviews-react-yan.netlify.app<br>
-04 - https://accordion-react-yan.netlify.app<br>
-05 - https://menu-react-yan.netlify.app<br>
-06 - https://tabs-react-yan.netlify.app<br>
-07 - https://slider-react-yan.netlify.app<br>
-08 - https://lorem-ipsum-react-yan.netlify.app<br>
-09 - https://color-generator-react-yan.netlify.app<br>
-10 - https://daily-tasks-react-yan.netlify.app<br>
-11 - https://navbar-react-yan.netlify.app<br>
-12 - https://sidebar-modal-react-yan.netlify.app<br>
-13 - https://strapi-submenus-react-yan.netlify.app<br>
-14 - https://cart-react-yan.netlify.app<br>
-
-## What have i learned so far?
-
-### How to Build Components
-
 <ul>
-   <li>Create Components</li>
-   <li>Fragments</li>
-   <li>Render Lists</li>
-   <li>Conditional Rendering</li>
-   <li>Handle Events</li>
-   <li>Manage State</li>
-   <li>Pass Data via Props</li>
-   <li>State vs Props</li>
-   <li>Pass Children</li>
-   <li>Inspect Components with React Devtools</li>
+  <li><a href="https://endlessrails-yan-react.vercel.app">Endless Rails</a></li>
+  <li><a href="https://birthday-buddy-react-yan.netlify.app">Birthday Buddy</a></li>
+  <li><a href="https://tour-react-yan.netlify.app">Tour</a></li>
+  <li><a href="https://reviews-react-yan.netlify.app">Reviews</a></li>
+  <li><a href="https://accordion-react-yan.netlify.app">Accordion</a></li>
+  <li><a href="https://menu-react-yan.netlify.app">Menu</a></li>
+  <li><a href="https://tabs-react-yan.netlify.app">Tabs</a></li>
+  <li><a href="https://slider-react-yan.netlify.app">Slider</a></li>
+  <li><a href="https://lorem-ipsum-react-yan.netlify.app">Lorem Ipsum Generator</a></li>
+  <li><a href="https://color-generator-react-yan.netlify.app">Color Generator</a></li>
+  <li><a href="https://daily-tasks-react-yan.netlify.app">Daily Tasks</a></li>
+  <li><a href="https://navbar-react-yan.netlify.app">Navbar</a></li>
+  <li><a href="https://sidebar-modal-react-yan.netlify.app">Sidebar Modal</a></li>
+  <li><a href="https://strapi-submenus-react-yan.netlify.app">Strapi Submenus</a></li>
+  <li><a href="https://cart-react-yan.netlify.app">Cart</a></li>
 </ul>
 
-### How to Style Components
 
-<ul>
-   <li>Vanilla CSS</li>
-   <li>CSS Modules</li>
-   <li>CSS in JS</li>
-   <li>Separation of Concerns</li>
-   <li>Inline Styles</li>
-   <li>Popular UI Libraries</li>
-   <li>Add Icons</li>
-</ul>
+## What I've Learned So Far:
 
-### How to Manage Component State
+### Building Components
 
-<ul>
-   <li>State Hook</li>
-   <li>State Structure</li>
-   <li>Pure Components</li>
-   <li>Strict Mode</li>
-   <li>Update Objects</li>
-   <li>Update Nested Objects</li>
-   <li>Update Arrays</li>
-   <li>Update Arrays of Objects</li>
-   <li>Immer</li>
-   <li>Share state between Components</li>
-</ul>
+- Creating Components
+- Using Fragments
+- Rendering Lists
+- Conditional Rendering
+- Handling Events
+- Managing State
+- Passing Data via Props
+- Understanding State vs Props
+- Handling Children Components
+- Inspecting Components with React Devtools
+
+### Styling Components
+
+- Using Vanilla CSS
+- Utilizing CSS Modules
+- Implementing CSS in JS
+- Separation of Concerns
+- Applying Inline Styles
+- Exploring Popular UI Libraries
+- Adding Icons to Components
+
+### Managing Component State
+
+- Understanding the State Hook
+- Structuring State
+- Working with Pure Components
+- Utilizing Strict Mode
+- Updating Objects
+- Handling Nested Objects Updates
+- Managing Array Updates
+- Handling Arrays of Objects
+- Implementing Immer for Immutability
+- Sharing State Between Components
+
+## Advanced React Topics:
+
+- Leveraging JavaScript (Optional Chaining)
+- Project Structure
+
+### useState and useEffect
+
+- `useState` for managing state
+- `useEffect` for handling side effects
 
 ### Forms
 
-<ul>
-   <li>Build Form</li>
-   <li>Handle Form Submission</li>
-   <li>Access Input fields</li>
-   <li>Controlled Components</li>
-   <li>Manage Forms with React Hook Form</li>
-   <li>Apply Validation</li>
-   <li>Schema Based Validation with Zod</li>
-</ul>
+- Building Forms
+- Handling Form Submission
+- Accessing Input Fields
+- Uncontrolled Inputs
+- Controlled Inputs
+- Handling Multiple Inputs
+- Working with Other Input Types
+- Managing Form Data
+- Managing Forms using React Hook Form
+- Applying Form Validation
+- Implementing Schema-Based Validation with Zod
+  
+### React Hooks and Patterns
 
-## Advanced React
-<ul>
-   <li>useState</li>
-   <li>useEffect</li>
-   <li>Conditional Rendering</li>
-   <li>Project Structure</li>
-   <li>Leverage Javascript (Optional Chaining)</li>
-   <li>Forms</li>
-   <li>useRef</li>
-   <li>Custom Hooks</li>
-   <li>Context Api</li>
-   <li>useReducer</li>
-   <li>Lower State</li>
-   <li>react.memo</li>
-   <li>useMemo</li>
-   <li>useCallback</li>
-   <li>Lazy, Suspense, useTransition</li>
-</ul>
+- Utilizing `useRef`
+- Creating Custom Hooks
+- Implementing the Context API
+- Understanding `useReducer`
+
+### Optimizing Performance
+
+- Using `react.memo` for memoization
+- `useMemo` for optimizing calculations
+- `useCallback` for optimizing event callbacks
+- Lazy Loading Components with Suspense and `useTransition`
