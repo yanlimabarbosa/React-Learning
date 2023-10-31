@@ -16,8 +16,6 @@
 13 - https://strapi-submenus-react-yan.netlify.app<br>
 14 - https://cart-react-yan.netlify.app<br>
 
-
-
 ## What have i learned so far?
 
 ### How to Build Components
