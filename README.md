@@ -6,6 +6,7 @@
 03 - https://reviews-react-yan.netlify.app/<br>
 04 - https://accordion-react-yan.netlify.app<br>
 05 - https://menu-react-yan.netlify.app/<br>
+06 - https://tabs-react-yan.netlify.app/<br>
 
 ## What have i learned so far?
 
