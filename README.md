@@ -1,18 +1,19 @@
 ## Deployments:
 
-00 - https://endlessrails-yan-react.vercel.app/<br>
-01 - https://birthday-buddy-react-yan.netlify.app/<br>
-02 - https://tour-react-yan.netlify.app/<br>
-03 - https://reviews-react-yan.netlify.app/<br>
+00 - https://endlessrails-yan-react.vercel.app<br>
+01 - https://birthday-buddy-react-yan.netlify.app<br>
+02 - https://tour-react-yan.netlify.app<br>
+03 - https://reviews-react-yan.netlify.app<br>
 04 - https://accordion-react-yan.netlify.app<br>
-05 - https://menu-react-yan.netlify.app/<br>
-06 - https://tabs-react-yan.netlify.app/<br>
-07 - https://slider-react-yan.netlify.app/<br>
-08 - https://lorem-ipsum-react-yan.netlify.app/<br>
-09 - https://color-generator-react-yan.netlify.app/<br>
-10 - https://daily-tasks-react-yan.netlify.app/<br>
+05 - https://menu-react-yan.netlify.app<br>
+06 - https://tabs-react-yan.netlify.app<br>
+07 - https://slider-react-yan.netlify.app<br>
+08 - https://lorem-ipsum-react-yan.netlify.app<br>
+09 - https://color-generator-react-yan.netlify.app<br>
+10 - https://daily-tasks-react-yan.netlify.app<br>
 11 - https://navbar-react-yan.netlify.app<br>
 12 - https://sidebar-modal-react-yan.netlify.app<br>
+13 - https://strapi-submenus-react-yan.netlify.app<br>
 
 
 
