@@ -3,11 +3,14 @@ import { createContext, useContext, useState, useEffect } from "react"
 const AppContext = createContext()
 
 export const AppProvider = ({ children }) => {
-  const [isDarkTheme, setIsDarkTheme] = useState(true)
+  const [isDarkTheme, setIsDarkTheme] = useState(false)
 
   const toggleDarkTheme = () => {
     const newDarkTheme = !isDarkTheme
     setIsDarkTheme(newDarkTheme)
+    const body = document.querySelector("body")
+    console.log(isDarkTheme)
+    document.body.classList.toggle("dark-theme", newDarkTheme)
   }
 
   return (
