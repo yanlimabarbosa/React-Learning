@@ -1,6 +1,9 @@
 import { useState } from "react"
+import { useGlobalContext } from "../Context/context"
 
 const SearchForm = () => {
+  const { setSearchTerm } = useGlobalContext()
+
   return (
     <section>
       <h1 className="title">Unsplash Images</h1>
@@ -9,8 +12,8 @@ const SearchForm = () => {
         onSubmit={(e) => {
           e.preventDefault()
           const searchValue = e.target.elements.search.value
+          setSearchTerm(`${searchValue}`)
           if (!searchValue) return
-          console.log(searchValue)
         }}
       >
         <input
