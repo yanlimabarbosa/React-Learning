@@ -12,7 +12,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <AppProvider>
     <QueryClientProvider client={queryClient}>
       <App />
-      <ReactQueryDevtools />
     </QueryClientProvider>
   </AppProvider>
 )
