@@ -2,8 +2,7 @@ import { useQuery } from "@tanstack/react-query"
 import axios from "axios"
 import { useGlobalContext } from "../Context/context"
 
-const url =
-  "https://api.unsplash.com/search/photos?client_id=_0nd42gEyO5tvb-3Lz6g0mANPIokYO6HS4Ra6Za14zE"
+const url = `https://api.unsplash.com/search/photos?client_id=_0nd42gEyO5tvb-3Lz6g0mANPIokYO6HS4Ra6Za14zE`
 
 const Gallery = () => {
   const { searchTerm } = useGlobalContext()
@@ -23,7 +22,7 @@ const Gallery = () => {
     )
   }
 
-  const results = response.data.results
+  const results = response.data?.results || []
   if (results.length === 0) {
     return (
       <section className="image-container">
