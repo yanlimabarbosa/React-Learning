@@ -16,8 +16,8 @@
   <li><a href="https://sidebar-modal-react-yan.netlify.app">Sidebar Modal</a></li>
   <li><a href="https://strapi-submenus-react-yan.netlify.app">Strapi Submenus</a></li>
   <li><a href="https://cart-react-yan.netlify.app">Cart</a></li>
+  <li><a href="https://contentful-cms-react-yan.netlify.app/">Contentful CMS</a></li>
 </ul>
-
 
 ## What I've Learned So Far:
 
