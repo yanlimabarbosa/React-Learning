@@ -1,6 +1,6 @@
 ## Figma URL
 
-[Contentful](https://www.figma.com/file/XtVr3JRCGWyZESYxd9EhZK/Contentful?node-id=0%3A1&t=SNnU6FgNUQXktIFb-1)
+[Contentful](https://www.figma.com/file/XtVr3JRCGWyZESYxd9EhZK/Contentful?node-id=0%3A1&t=SNnU6FgNUQXktIFb-1)sk-YoRcFmHQxQtd8W5W6N-VtrkJdpKV1ALtYBJDP9Rc7_A
 
 ## Steps
 
@@ -53,18 +53,18 @@ Access Token -
 #### Get Entries
 
 ```js
-import { createClient } from 'contentful';
+import { createClient } from "contentful"
 
 const client = createClient({
-  space: 'qz00uzgg3leh',
-  environment: 'master', // defaults to 'master' if not set
+  space: "qz00uzgg3leh",
+  environment: "master", // defaults to 'master' if not set
   accessToken: import.meta.env.VITE_API_KEY,
-});
+})
 
 client
-  .getEntries({ content_type: 'projects' })
+  .getEntries({ content_type: "projects" })
   .then((response) => console.log(response.items))
-  .catch(console.error);
+  .catch(console.error)
 ```
 
 #### Custom Hook
